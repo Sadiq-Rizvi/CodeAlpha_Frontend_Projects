@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sayed Mohammad Sadiq Rizvi — AIML Student & Aspiring Software Developer portfolio">
+  <title>Sayed Mohammad Sadiq Rizvi | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">SR<span class="logo-dot">.</span></a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
+        <li><a href="#contact" class="nav-link nav-link--cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-bg"></div>
+      <div class="container hero-content">
+        <p class="hero-greeting fade-in">Hello, I'm</p>
+        <h1 class="hero-title fade-in">Sayed Mohammad<br>Sadiq Rizvi</h1>
+        <p class="hero-subtitle fade-in">AIML Student &amp; Aspiring Software Developer</p>
+        <p class="hero-desc fade-in">
+          I build responsive web applications, explore AI technologies, and grow my
+          development skills through projects and internships.
+        </p>
+        <div class="hero-actions fade-in">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+        <a href="#about" class="scroll-indicator" aria-label="Scroll to about section">
+          <span></span>
+        </a>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section-title reveal">About Me</h2>
+        <div class="about-grid">
+          <div class="about-image reveal">
+            <div class="about-avatar">
+              <img src="profile.jpeg" alt="Sayed Mohammad Sadiq Rizvi">
+            </div>
+          </div>
+          <div class="about-text reveal">
+            <p>
+              I'm an AIML undergraduate and aspiring software developer with experience in
+              HTML, CSS, JavaScript, C++, and Python. I enjoy building responsive web
+              applications, exploring AI technologies, and continuously improving my
+              development skills through projects and internships.
+            </p>
+            <p>
+              I'm always interested in learning new technologies, collaborating on projects,
+              and exploring opportunities in software development, web development, and AI/ML.
+            </p>
+            <ul class="about-highlights">
+              <li>
+                <strong>Location</strong>
+                <span>Greater Noida, Uttar Pradesh, India</span>
+              </li>
+              <li>
+                <strong>Education</strong>
+                <span>B.Tech AIML — NIET, Greater Noida</span>
+              </li>
+              <li>
+                <strong>Status</strong>
+                <span>Open to internships &amp; collaborations</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2 class="section-title reveal">Skills</h2>
+        <p class="section-subtitle reveal">Technologies and tools I work with</p>
+        <div class="skills-tags reveal">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+          <span>Python</span>
+          <span>C++</span>
+          <span>Java</span>
+          <span>SQL</span>
+          <span>Responsive Web Design</span>
+          <span>Git &amp; GitHub</span>
+          <span>AI/ML Basics</span>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-icon">&#60;/&#62;</div>
+            <h3>Web Development</h3>
+            <p>HTML5, CSS3, JavaScript, Responsive Design, UI implementation</p>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon">&#128013;</div>
+            <h3>Programming</h3>
+            <p>Python, C++, Java, SQL, problem-solving &amp; logic building</p>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon">&#129302;</div>
+            <h3>AI / ML</h3>
+            <p>Machine Learning basics, Pandas, Scikit-learn, Decision Trees</p>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon">&#9881;</div>
+            <h3>Tools</h3>
+            <p>Git, GitHub, VS Code, version control &amp; project deployment</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="section-title reveal">Projects</h2>
+        <p class="section-subtitle reveal">A selection of things I've built</p>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-image project-image--ai">
+              <span>AI / ML</span>
+            </div>
+            <div class="project-body">
+              <h3>Smart Irrigation Recommendation System</h3>
+              <p>
+                AI-powered Flask app using a Decision Tree Classifier to recommend irrigation
+                based on soil moisture, temperature, humidity, and rainfall data.
+              </p>
+              <div class="project-tags">
+                <span>Python</span>
+                <span>Flask</span>
+                <span>Scikit-learn</span>
+                <span>ML</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Sadiq-Rizvi/smart-irrigation-recommendation-system" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image project-image--weather">
+              <span>Weather</span>
+            </div>
+            <div class="project-body">
+              <h3>Weather Forecast Pro</h3>
+              <p>
+                Real-time weather web app with 5-day forecasts for Indian cities, built with
+                OpenWeatherMap API integration and a clean responsive UI.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>API</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Sadiq-Rizvi/weather-forecast-pro" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image project-image--todo">
+              <span>To-Do</span>
+            </div>
+            <div class="project-body">
+              <h3>To-Do List Application</h3>
+              <p>
+                Task manager to add, delete, and mark tasks complete — built with Python and
+                Tkinter as part of the CodSoft internship.
+              </p>
+              <div class="project-tags">
+                <span>Python</span>
+                <span>Tkinter</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Sadiq-Rizvi/CODSOFT" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image project-image--password">
+              <span>Security</span>
+            </div>
+            <div class="project-body">
+              <h3>Password Generator</h3>
+              <p>
+                Generates strong random passwords with customizable length and character
+                types including symbols, numbers, and letters.
+              </p>
+              <div class="project-tags">
+                <span>Python</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Sadiq-Rizvi/CODSOFT" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image project-image--calc">
+              <span>Calculator</span>
+            </div>
+            <div class="project-body">
+              <h3>Calculator Application</h3>
+              <p>
+                Web calculator with basic arithmetic and a responsive UI (CodeAlpha), plus a
+                Python Tkinter version from the CodSoft internship.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Python</span>
+              </div>
+              <div class="project-links">
+                <a href="../Calculator/index.html" target="_blank" rel="noopener">Live Demo</a>
+                <a href="https://github.com/Sadiq-Rizvi/CODSOFT" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image project-image--game">
+              <span>Game</span>
+            </div>
+            <div class="project-body">
+              <h3>Rock Paper Scissors Game</h3>
+              <p>
+                Interactive game where you play against the computer with score tracking,
+                built in Python during the CodSoft internship.
+              </p>
+              <div class="project-tags">
+                <span>Python</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Sadiq-Rizvi/CODSOFT" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image project-image--portfolio">
+              <span>Portfolio</span>
+            </div>
+            <div class="project-body">
+              <h3>Personal Portfolio Website</h3>
+              <p>
+                This portfolio site — responsive, animated, and built from scratch with
+                semantic HTML, modern CSS, and JavaScript.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="#home">View Site</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="section resume">
+      <div class="container">
+        <h2 class="section-title reveal">Resume</h2>
+        <p class="section-subtitle reveal">Education and experience</p>
+
+        <h3 class="timeline-heading reveal">Experience</h3>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2026</span>
+              <h3>Frontend Development Intern</h3>
+              <p class="timeline-org">CodeAlpha</p>
+              <ul class="resume-skills-list">
+                <li>Developed responsive web projects using HTML, CSS, and JavaScript.</li>
+                <li>Gained practical experience in UI design, version control, and project deployment.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2025</span>
+              <h3>Python Programming Intern</h3>
+              <p class="timeline-org">CodSoft · <a href="https://github.com/Sadiq-Rizvi/CODSOFT" target="_blank" rel="noopener" class="timeline-link">View Projects</a></p>
+              <ul class="resume-skills-list">
+                <li>Built Python applications including To-Do List, Calculator, Password Generator, and Rock-Paper-Scissors Game.</li>
+                <li>Improved problem-solving and programming fundamentals through hands-on projects.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <h3 class="timeline-heading reveal">Education</h3>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2024 – 2028</span>
+              <h3>B.Tech in Artificial Intelligence &amp; Machine Learning</h3>
+              <p class="timeline-org">Noida Institute of Engineering and Technology (NIET), Greater Noida</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2023</span>
+              <h3>Senior Secondary Education (Class XII)</h3>
+              <p class="timeline-org">Kendriya Vidyalaya New Cantt, Prayagraj</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2021</span>
+              <h3>Secondary Education (Class X)</h3>
+              <p class="timeline-org">Kendriya Vidyalaya New Cantt, Prayagraj</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title reveal">Contact</h2>
+        <p class="section-subtitle reveal">Let's connect — I'd love to hear from you</p>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <a href="mailto:fatimataskin44@gmail.com" class="contact-item">
+              <span class="contact-icon">&#9993;</span>
+              <div>
+                <strong>Email</strong>
+                <span>fatimataskin44@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://github.com/Sadiq-Rizvi" target="_blank" rel="noopener" class="contact-item">
+              <span class="contact-icon">&#9741;</span>
+              <div>
+                <strong>GitHub</strong>
+                <span>github.com/Sadiq-Rizvi</span>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/sayed-mohammad-sadiq-rizvi-61369b30b/" target="_blank" rel="noopener" class="contact-item">
+              <span class="contact-icon">&#128100;</span>
+              <div>
+                <strong>LinkedIn</strong>
+                <span>sayed-mohammad-sadiq-rizvi</span>
+              </div>
+            </a>
+            <div class="contact-item contact-item--static">
+              <span class="contact-icon">&#128205;</span>
+              <div>
+                <strong>Location</strong>
+                <span>Greater Noida, Uttar Pradesh, India</span>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form reveal" id="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            <p class="form-status" id="form-status" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Sayed Mohammad Sadiq Rizvi. Built with HTML, CSS &amp; JavaScript.</p>
+      <a href="#home" class="back-to-top" aria-label="Back to top">&#8593;</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
