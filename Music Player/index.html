@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="music-player">
+        <div class="album-cover">
+            <i class="fas fa-music"></i>
+        </div>
+        <h2 id="song-title">Song Title</h2>
+        <p id="artist">Artist Name</p>
+        
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+            <div class="time">
+                <span id="current-time">0:00</span>
+                <span id="duration">0:00</span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="prev-btn"><i class="fas fa-step-backward"></i></button>
+            <button id="play-btn"><i class="fas fa-play"></i></button>
+            <button id="next-btn"><i class="fas fa-step-forward"></i></button>
+        </div>
+
+        <div class="volume-container">
+            <i class="fas fa-volume-up"></i>
+            <input type="range" id="volume" min="0" max="100" value="70">
+        </div>
+
+        <div class="upload-container">
+            <label for="file-input" class="upload-btn">
+                <i class="fas fa-plus"></i> Add Your Own Songs
+            </label>
+            <input type="file" id="file-input" accept="audio/*" multiple>
+        </div>
+
+        <div class="playlist-container">
+            <h3>Playlist</h3>
+            <ul id="playlist"></ul>
+        </div>
+    </div>
+
+    <audio id="audio" crossorigin="anonymous"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
