@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Beautiful Image Gallery</h1>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search for images (e.g., cats, mountains, cars)">
+            <button id="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+            <button class="filter-btn" data-filter="city">City</button>
+            <button class="filter-btn" data-filter="animals">Animals</button>
+        </div>
+    </header>
+
+    <div class="gallery">
+        <div class="gallery-item" data-category="nature">
+            <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600&q=80" alt="Mountain Lake">
+            <div class="overlay">
+                <h3>Mountain Lake</h3>
+                <i class="fas fa-expand"></i>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="city">
+            <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=600&q=80" alt="New York Skyline">
+            <div class="overlay">
+                <h3>New York Skyline</h3>
+                <i class="fas fa-expand"></i>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="animals">
+            <img src="https://images.unsplash.com/photo-1474511320723-9a56873571b7?w=600&q=80" alt="Lion">
+            <div class="overlay">
+                <h3>Lion</h3>
+                <i class="fas fa-expand"></i>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="nature">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80" alt="Forest">
+            <div class="overlay">
+                <h3>Forest</h3>
+                <i class="fas fa-expand"></i>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="city">
+            <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600&q=80" alt="London">
+            <div class="overlay">
+                <h3>London</h3>
+                <i class="fas fa-expand"></i>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="animals">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80" alt="Puppy">
+            <div class="overlay">
+                <h3>Puppy</h3>
+                <i class="fas fa-expand"></i>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="nature">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef281b399?w=600&q=80" alt="Ocean">
+            <div class="overlay">
+                <h3>Ocean Sunset</h3>
+                <i class="fas fa-expand"></i>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="city">
+            <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=600&q=80" alt="Tokyo">
+            <div class="overlay">
+                <h3>Tokyo Nights</h3>
+                <i class="fas fa-expand"></i>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="animals">
+            <img src="https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&q=80" alt="Cat">
+            <div class="overlay">
+                <h3>Cat</h3>
+                <i class="fas fa-expand"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <span class="close">&times;</span>
+            <img id="lightbox-img" src="" alt="">
+            <div class="caption" id="caption"></div>
+            <a class="prev" id="prev-btn">&#10094;</a>
+            <a class="next" id="next-btn">&#10095;</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
